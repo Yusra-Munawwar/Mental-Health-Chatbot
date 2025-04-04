@@ -2,7 +2,8 @@
 
 A compassionate, culturally sensitive mental health support chatbot designed specifically for users in Pakistan. This chatbot provides emotional support, active listening, and calming strategies while maintaining ethical boundaries and cultural sensitivity.
 
-📋 Overview
+
+## 📋 Overview
 
 This chatbot is designed to provide accessible mental health support to Pakistani users through:
 - Emotional support and active listening
@@ -12,7 +13,7 @@ This chatbot is designed to provide accessible mental health support to Pakistan
 
 The project leverages Google's Gemini model through LangChain to create a conversational AI that respects Islamic and cultural values while providing mental health assistance.
 
-✨ Features
+## ✨ Features
 
 - **Multi-language Support**: Communicates in English, Roman Urdu, and Urdu
 - **Culturally Sensitive Responses**: Respects local norms and religious values
@@ -21,31 +22,38 @@ The project leverages Google's Gemini model through LangChain to create a conver
 - **Conversation Memory**: Maintains context through conversation history
 - **User-friendly Interface**: Simple Gradio web interface for easy interaction
 
-🚀 Quick Start
+## 🚀 Quick Start
 
-Prerequisites
+### Prerequisites
 - Python 3.x
 - Google API key for Gemini
 
-Installation
+### Installation
 
 1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/mental-health-chatbot.git
 cd mental-health-chatbot
+```
 
 2. Install required packages:
+```bash
 pip install langchain-google-genai langchain langchain-core langchain-community gradio
-
+```
 
 3. Set up your Google API key:
+```python
 import os
 os.environ["GOOGLE_API_KEY"] = "your_google_api_key_here"
+```
 
 4. Run the application:
+```bash
 python app.py
 # Or run the notebook in a Jupyter environment
+```
 
-💻 Usage
+## 💻 Usage
 
 After starting the application, a Gradio interface will launch where you can:
 1. Enter your message in the text box
@@ -53,7 +61,7 @@ After starting the application, a Gradio interface will launch where you can:
 3. Use "Clear" to reset the conversation
 4. Say "exit" or "bye" to end the conversation
 
-🛠️ Technical Details
+## 🛠️ Technical Details
 
 The chatbot is built with:
 - **LangChain**: For building the conversational chain and memory management
@@ -61,7 +69,7 @@ The chatbot is built with:
 - **ConversationBufferMemory & ConversationBufferWindowMemory**: For maintaining conversation context
 - **Gradio**: For creating a simple web interface
 
-🤔 Core Guidelines
+## 🤔 Core Guidelines
 
 The chatbot follows these key principles:
 - **Confidentiality & Privacy**: Does not store or share user data
@@ -70,7 +78,7 @@ The chatbot follows these key principles:
 - **Non-judgmental Support**: Uses supportive and encouraging language
 - **Professional Help Referral**: Encourages seeking professional help when needed
 
-🔗 Mental Health Resources in Pakistan
+## 🔗 Mental Health Resources in Pakistan
 
 If you or someone you know needs immediate professional support:
 - **Umang Pakistan:** 0333-3412147
